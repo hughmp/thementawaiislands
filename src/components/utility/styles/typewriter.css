@@ -1,0 +1,11 @@
+.typewriter {
+  color: inherit;
+}
+.cursor {
+  animation: cursor 1s steps(1) infinite;
+}
+@keyframes cursor {
+  50% {
+    color: transparent;
+  }
+}

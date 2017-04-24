@@ -1,0 +1,112 @@
+.press {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  padding-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.press img {
+  align-self: center;
+  height: auto;
+  width: 40vw;
+  border: 10px double #dddddd;
+}
+
+.press .image-wrapper {
+  position: relative;
+}
+
+.press iframe {
+  border: 10px double #dddddd;
+  width: 40vw;
+  height: 40vh;
+
+}
+
+.press h1 {
+  padding-top: 40px;
+}
+
+.press .post {
+  display: flex;
+  align-items: row;
+}
+
+.post.reverse {
+  flex-direction: row-reverse;
+}
+
+.post.reverse .image {
+  padding-right: 15px;
+}
+
+.press .post .text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.press .post .text p {
+  /*padding: 50px;*/
+}
+
+.press .post .image {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.post .image.portrait {
+  justify-content: center;
+}
+
+.post .image img.portrait {
+  height: 50vh;
+  width: auto;
+}
+
+.post blockquote{
+  font-size: 16px;
+  border: solid 2px #dddddd;
+  margin: 1em 0px;
+  padding: 1em 1em;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1em;
+  min-height: 60px;
+}
+.post blockquote:before {
+  display: block;
+  float: left;
+  content: "\201C";
+  font-size: 100px;
+  margin-right: 10px;
+  color: #fff;
+  background-color: #03C9A9;
+  padding: 15px 12px 5px 8px;
+  width: 50px;
+  height: 50px;
+  line-height: 90px;
+  border-radius: 50%;
+}
+.post blockquote cite {
+  position: relative;
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+  color: #999;
+}
+
+/* mobile styles */
+@media screen and (max-width: 800px) {
+  .press .post {
+    flex-direction: column;
+  }
+  .post.reverse {
+    flex-direction: column;
+  }
+}

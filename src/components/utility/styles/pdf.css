@@ -1,0 +1,13 @@
+.pdf-wrapper {
+  display: block;
+  position: relative;
+  height: calc(100vh - 80px);
+  top: 80px;
+  width: 100vw;
+  overflow: hidden;
+}
+.pdf-iframe {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}

@@ -1,0 +1,9 @@
+.gallery-wrapper {
+  margin-top: 85px;
+  z-index: 5;
+  display: inline-block;
+  width: 100%;
+}
+.gallery .tile:hover {
+  transform: scale(1.01);
+}

@@ -1,0 +1,128 @@
+.footer {
+  background: #fff;
+  color: #000;
+  position: relative;
+  z-index: 2;
+}
+.footer-container {
+  display: flex;
+  max-width: 110rem;
+  padding: 5rem 3rem;
+  margin: 0 auto;
+  border-bottom:1px solid rgba(0,0,0,.3);
+}
+.footer-contact {
+  flex: 0 0 40%;
+  padding-right: 3rem;
+  box-sizing: border-box;
+}
+.footer-form {
+  flex: 0 0 60%;
+}
+.footer-contact-item {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.footer-contact-item>.fa {
+   margin-right: 3rem;
+  font-size: 1.7rem;
+ }
+.footer-contact-item>a {
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.footer-contact-icons{
+  display: flex;
+}
+.footer-contact-icons>.fa {
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 4px;
+  border: 1px solid #000;
+  display: block;
+  font-size: 2rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  width: 3.5rem;
+  color: #000;
+  margin-right: 2rem;
+}
+.footer-contact-icons>.fa:hover {
+  background-color: rgba(0,0,0,.3);
+}
+.footer-contact>ul {
+  padding: 0;
+  margin: 5rem 0;
+}
+
+.form-name-email {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.footer-input {
+  width: 45%;
+  background: none;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,.4);
+  border-radius: 5px;
+  color: #000;
+}
+.footer-textarea {
+  width: 100%;
+  background: none;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,.4);
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 2rem;
+  color: #000;
+  box-sizing: border-box;
+}
+.footer-input:focus,
+.footer-textarea:focus {
+  border: 1px solid #000;
+  outline: 0;
+}
+.footer-form-button {
+  padding: 1rem 2rem;
+  border: 1px solid #000;
+  color: #000;
+  background: none;
+  border-radius: 5px;
+}
+.footer-form-button:hover {
+  background-color: rgba(0,0,0,.3);
+}
+.footer-form h2 {
+  margin-bottom: 5rem;
+}
+.footer-copyright {
+  text-align: center;
+  padding-bottom: 1px;
+}
+.form-success {
+  color: red;
+}
+@media screen and (max-width: 767px) {
+  .footer-container {
+    display: block;
+  }
+  .footer-contact {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form-name-email {
+    display: block;
+  }
+  .footer-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .footer-input:first-child {
+    margin-bottom: 2rem;
+  }
+}

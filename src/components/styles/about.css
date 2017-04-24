@@ -1,0 +1,9 @@
+.about-content {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 5rem;
+  border: 10px solid gray;
+}

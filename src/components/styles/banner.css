@@ -1,0 +1,46 @@
+.banner {
+  height: 100vh;
+  z-index: -2;
+}
+.banner-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  background-color: gray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.banner-statement {
+  position: fixed;
+  top: 200px;
+  line-height: 1.1;
+  margin-left: 5%;
+  margin-right: auto;
+  color: white;
+  font-size: 6rem;
+  font-weight: 300;
+  z-index: 0;
+}
+.scroll-arrow {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 95vh;
+}
+
+/* mobile styles */
+@media screen and (max-width: 1024px) {
+  .banner-statement {
+    top: 150px;
+  }
+  .scroll-arrow {
+    width: 20px;
+  }
+}

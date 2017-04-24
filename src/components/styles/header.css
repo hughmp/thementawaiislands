@@ -1,0 +1,67 @@
+/* common styles */
+.header-wrapper {
+  height: 0px;
+}
+.header {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  top: 0px;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 2px, rgba(0, 0, 0, 0.341176) 0px 3px 6px;
+
+  z-index: 100;
+  transition: 0.25s;
+}
+.transparent {
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+  transition: 0.25s;
+}
+.white-text * {
+  color: white;
+  transition: 0.25s;
+}
+.black-text * {
+  color: black;
+  transition: 0.25s;
+}
+.logo-invert object {
+  filter: invert(100%);
+  transition: 0.25s;
+}
+.header-container {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-logo {
+  align-self: center;
+}
+.header-logo > a {
+  display: block;
+  width: 230px;;
+}
+.header-logo img, object {
+  width: 100%;
+  padding-top: 7px;
+  pointer-events: none;
+}
+
+/* mobile styles */
+@media screen and (max-width: 1024px) {
+  .header-container {
+    width: 90%;
+  }
+}
+
+/* large screen styles */
+@media screen and (min-width: 700px) {
+
+}
