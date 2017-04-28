@@ -8,6 +8,10 @@
   margin-right: auto;
 }
 
+.press a {
+  font-size: 1em;
+}
+
 .press img {
   align-self: center;
   height: auto;
@@ -23,7 +27,6 @@
   border: 10px double #dddddd;
   width: 40vw;
   height: 40vh;
-
 }
 
 .press h1 {

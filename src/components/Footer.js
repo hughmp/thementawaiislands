@@ -19,11 +19,11 @@ export default ({ form, handleSubmitForm }) => (
           </li>
           <li className="footer-contact-item">
             <i className="fa fa-phone"></i>
-            <a href="tel:000000000">(000) 000-0000</a>
+            <a href="tel:+447545922090">+44 (0) 7545 922 090</a>
           </li>
           <li className="footer-contact-item">
             <i className="fa fa-envelope-o"></i>
-            <a href="mailto:matungou@thementawaiislands.com">matungou@thementawaiislands.com</a>
+            <a href="mailto:matungou.surf@gmail.com">matungou.surf@gmail.com</a>
           </li>
         </ul>
         <p className='footer-contact-icons'>

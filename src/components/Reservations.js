@@ -27,9 +27,8 @@ export default () => (
     </div>
 
     <p>
-      Contact for Availability
-      We will be sure to reply within 2 hours
-      If you cant wait that long try our LIVE CHAT service below!
+      Contact us for availability, and we will be sure to reply within 2 hours<br />
+      If you can't wait that long, try our LIVE CHAT service below!<br />
     </p>
 
     <p>

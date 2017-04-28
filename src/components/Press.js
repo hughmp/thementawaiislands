@@ -40,7 +40,9 @@ export default () => (
       </div>
       <div className='image'>
         <div className='image-wrapper'>
-          <img src={pic1} alt='Matt Mario Photography' />
+          <a href='http://www.mattmariophotography.com/' target='_blank'>
+            <img src={pic1} alt='Matt Mario Photography' />
+          </a>
         </div>
       </div>
     </div>
@@ -62,17 +64,17 @@ export default () => (
           The trip was captured by Sharpy from CarveMag UK and Mr B Productions.
         </p>
 
-        <h4>
+        <h3>
           <a href='http://www.carvemag.com/2015/10/mantungou' target='_blank'>CarveMag UK Article</a>
-        </h4>
+        </h3>
 
-        <h4>
+        <h3>
           <a href='http://magicseaweed.com/news/amping-in-matungou/8231' target='_blank'>View the trailer - magicseaweed.com</a>
-        </h4>
+        </h3>
 
-        <h4>
+        <h3>
           <a href='http://www.carvemag.com/2015/10/mantungou' target='_blank'>View the Full Edit</a>
-        </h4>
+        </h3>
       </div>
 
       <div className='image'>
@@ -139,11 +141,12 @@ export default () => (
       while Charter Boats have always seemed to have the edge, the tide is changing…
     </p>
 
-    <p>
-      [ View the full article in Print here ] <a href='http://www.carvemag.com/2015/10/mantungou' target='_blank'>http://www.carvemag.com/2015/10/mantungou</a>
-    </p>
+    <h3>
+      <a href='http://www.carvemag.com/2015/10/mantungou' target='_blank'>View the full article in Print here</a>
+    </h3>
 
-    <img src={pic3} alt='' />
+    <img src={pic3} alt='carvemag' />
+
 
   </div >
 );
