@@ -63,25 +63,15 @@ export default () => (
         </p>
 
         <h4>
-          CarveMag UK Article -
-          <p>
-            <a href='http://www.carvemag.com/2015/10/mantungou' target='_blank'>http://www.carvemag.com/2015/10/mantungou</a>
-          </p>
+          <a href='http://www.carvemag.com/2015/10/mantungou' target='_blank'>CarveMag UK Article</a>
         </h4>
+
         <h4>
-          View the trailer - magicseaweed.com
-          <p>
-            <a href='http://magicseaweed.com/news/amping-in-matungou/8231' target='_blank'>http://magicseaweed.com/news/amping-in-matungou/8231</a>
-          </p>
+          <a href='http://magicseaweed.com/news/amping-in-matungou/8231' target='_blank'>View the trailer - magicseaweed.com</a>
         </h4>
+
         <h4>
-          View the Full Edit
-          <p>
-            <a href='http://www.carvemag.com/2015/10/mantungou' target='_blank'>http://www.carvemag.com/2015/10/mantungou</a>
-          </p>
-        </h4>
-        <h4>
-          [ Trip Highlights Gallery ]
+          <a href='http://www.carvemag.com/2015/10/mantungou' target='_blank'>View the Full Edit</a>
         </h4>
       </div>
 

@@ -12,7 +12,7 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 import NotFound from './components/404';
 import Logistics from './components/Logistics';
-import Booking from './components/Booking';
+import Reservations from './components/Reservations';
 import Press from './components/Press';
 
 ReactDOM.render((
@@ -22,7 +22,7 @@ ReactDOM.render((
       <Route path='/brochure' component={About} />
       <Route path='/gallery' component={Gallery} />
       <Route path='/logistics' component={Logistics} />
-      <Route path='/booking' component={Booking} />
+      <Route path='/reservations' component={Reservations} />
       <Route path='/press' component={Press} />
     </Route>
     <Route path='*' component={NotFound} />

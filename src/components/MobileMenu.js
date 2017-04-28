@@ -51,7 +51,7 @@ export default ({ handleMenuChange, isMenuOpen }) => (
     <div>
       <Link
         className='header-booking-button mobile-booking-button'
-        to='/booking'
+        to='/reservations'
         onClick={() => handleMenuChange({ isOpen: false })}
       >
         <img src={calIcon} role='presentation'></img>

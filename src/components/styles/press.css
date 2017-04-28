@@ -103,10 +103,19 @@
 
 /* mobile styles */
 @media screen and (max-width: 800px) {
+  .press .post .text {
+    flex: 1 1 auto;
+  }
+  .press .post .image {
+    flex: 1 1 auto;
+  }
   .press .post {
     flex-direction: column;
   }
   .post.reverse {
     flex-direction: column;
+  }
+  .press img {
+    width: 70vw;
   }
 }

@@ -62,7 +62,7 @@ export default React.createClass({
         }
         <Link
           className='header-booking-button'
-          to="/booking"
+          to="/reservations"
         >
           <img src={calIcon} role='presentation'></img>
           RESERVATIONS

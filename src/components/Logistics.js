@@ -32,48 +32,50 @@ export default () => (
         <div className="logistics-getting-r-img">
           <img src={img2} alt="" className="logistics-img" />
         </div>
-        <h1>TRANSFER STAGES</h1>
-        <ul className="logistics-getting-r-ul">
-          <li>
-            <div
-              className='logistics-getting-r-icon'
-              style={{ backgroundImage: `url(${icon1})` }}
-            />
-            <p><b>Pick up - Padang International Airport</b></p>
-          </li>
-          <li>
-            <div
-              className='logistics-getting-r-icon'
-              style={{ backgroundImage: `url(${icon2})` }}
-            />
-            <p><b>Overnight hotel / homestay in Padang </b><br />
-              Before travelling to the islands (the ferry departs Padang at 7am)</p>
-          </li>
-          <li>
-            <div
-              className='logistics-getting-r-icon'
-              style={{ backgroundImage: `url(${icon3})` }}
-            />
-            <p><b>Taxi to Padang Harbour  </b><br />
-              Pick-up the morning of your ferry crossing</p>
-          </li>
-          <li>
-            <div
-              className='logistics-getting-r-icon'
-              style={{ backgroundImage: `url(${icon4})` }}
-            />
-            <p><b>Outbound Mentawai Fast Ferry </b><br />
-              Ticket - 295,000 IDR per person (Surfboard bag approx 230,000 IDR)</p>
-          </li>
-          <li>
-            <div
-              className='logistics-getting-r-icon'
-              style={{ backgroundImage: `url(${icon5})`, backgroundSize: "3rem" }}
-            />
-            <p><b>A host from Matungou will be there to meet you</b></p>
-          </li>
-        </ul>
-        <p className='price'>All for $95/person!</p>
+        <div>
+          <h1>TRANSFER STAGES</h1>
+          <ul className="logistics-getting-r-ul">
+            <li>
+              <div
+                className='logistics-getting-r-icon'
+                style={{ backgroundImage: `url(${icon1})` }}
+              />
+              <p><b>Pick up - Padang International Airport</b></p>
+            </li>
+            <li>
+              <div
+                className='logistics-getting-r-icon'
+                style={{ backgroundImage: `url(${icon2})` }}
+              />
+              <p><b>Overnight hotel / homestay in Padang </b><br />
+                Before travelling to the islands (the ferry departs Padang at 7am)</p>
+            </li>
+            <li>
+              <div
+                className='logistics-getting-r-icon'
+                style={{ backgroundImage: `url(${icon3})` }}
+              />
+              <p><b>Taxi to Padang Harbour  </b><br />
+                Pick-up the morning of your ferry crossing</p>
+            </li>
+            <li>
+              <div
+                className='logistics-getting-r-icon'
+                style={{ backgroundImage: `url(${icon4})` }}
+              />
+              <p><b>Outbound Mentawai Fast Ferry </b><br />
+                Ticket - 295,000 IDR per person (Surfboard bag approx 230,000 IDR)</p>
+            </li>
+            <li>
+              <div
+                className='logistics-getting-r-icon'
+                style={{ backgroundImage: `url(${icon5})`, backgroundSize: "3rem" }}
+              />
+              <p><b>A host from Matungou will be there to meet you</b></p>
+            </li>
+          </ul>
+          <p className='price'>All for $95/person!</p>
+        </div>
       </div>
     </div>
 
