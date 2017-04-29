@@ -34,8 +34,8 @@ export default ({ setTransparent }) => (
 
       <div className='wave-text'>
         <h1>
-          <p>AFFORDABLE ACCOMMODATION,<br />
-            IN TROPICAL ISLAND SURF PARADISE
+          <p>Affordable Accommodation,<br />
+            In Tropical Island Surf Paradise
           </p>
         </h1>
         <h2>

@@ -16,6 +16,7 @@ Development site at https://www.mentawaiislands.tk
 - [ ] google analytics  
 - [x] pdf component for about page  
 - [x] img logo svg fix  
+- [ ] style logo svg with css  
 - [x] generate final watermarked images  
 - [x] finish e-mail api  
 - [x] link up all social buttons  
