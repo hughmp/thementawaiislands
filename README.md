@@ -11,14 +11,18 @@ Development site at https://www.mentawaiislands.tk
 - APIs built using a microservice & serverless architecture with hosting on AWS Lambda  
 
 ### TODO
-- [ ] font files for all browsers  
-- [ ] link to PDF  
+- [x] font files for all browsers  
+- [ ] improve PDF render performance  
 - [ ] google analytics  
 - [x] pdf component for about page  
-- [ ] img fallback for logo  
+- [x] img logo svg fix  
 - [x] generate final watermarked images  
 - [x] finish e-mail api  
 - [x] link up all social buttons  
 - [x] press section  
 - [ ] debounce fix for scrolling  
 - [ ] add skype and whatsapp?  
+- [ ] update form email on lambda  
+- [x] remove gallery hover zoom on mobiles  
+- [ ] show warning for old browsers  
+- [ ] fix console errors  

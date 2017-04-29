@@ -5,6 +5,7 @@ import React from 'react';
 import './styles/header.css';
 
 import logo from '../../assets/images/square-logo.svg';
+import logoInvert from '../../assets/images/square-logo-invert.svg';
 
 export default ({ children, transparent }) => (
   <div className='header-wrapper' >
@@ -16,7 +17,7 @@ export default ({ children, transparent }) => (
       <div className='header-container'>
         <span className='header-logo'>
           <a href='/'>
-            <object data={logo} type='image/svg+xml' role='presentation' />
+            <img src={transparent ? logo : logoInvert} role='presentation' />
           </a>
         </span>
         <div className='header-menu-container'>

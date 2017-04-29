@@ -7,3 +7,9 @@
 .gallery .tile:hover {
   transform: scale(1.01);
 }
+
+@media screen and (max-width: 800px) {
+  .gallery .tile:hover {
+    transform: none;
+  }
+}

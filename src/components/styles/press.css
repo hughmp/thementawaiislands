@@ -120,5 +120,10 @@
   }
   .press img {
     width: 70vw;
+    height: auto;
+  }
+  .press iframe {
+    width: 60vw;
+    height: auto;
   }
 }
