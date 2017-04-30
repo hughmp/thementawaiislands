@@ -6,8 +6,9 @@
   width: 100vw;
   overflow: hidden;
 }
-.pdf-iframe {
+.pdf-wrapper iframe {
   height: 100%;
   width: 100%;
   overflow: hidden;
+  border: 0;
 }
