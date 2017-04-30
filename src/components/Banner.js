@@ -30,7 +30,6 @@ export default React.createClass({
   },
 
   handleScroll() {
-    console.log('fired');
     this.bottom = document
       .querySelector('.banner')
       .getBoundingClientRect()

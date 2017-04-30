@@ -8,9 +8,6 @@ import pic1 from './../../assets/images/press/1.jpg';
 import pic2 from './../../assets/images/press/2.jpg';
 import pic3 from './../../assets/images/press/3.jpg';
 import pic4 from './../../assets/images/press/4.jpg';
-import pic5 from './../../assets/images/press/5.jpg';
-import pic6 from './../../assets/images/press/6.jpg';
-import pic7 from './../../assets/images/press/7.jpg';
 
 // component
 export default () => (
@@ -41,7 +38,7 @@ export default () => (
       <div className='image'>
         <div className='image-wrapper'>
           <a href='http://www.mattmariophotography.com/' target='_blank'>
-            <img src={pic1} alt='Matt Mario Photography' />
+            <img src={pic1} title='Matt Mario Photogrpahy' alt='Matt Mario' />
           </a>
         </div>
       </div>
@@ -78,7 +75,7 @@ export default () => (
       </div>
 
       <div className='image'>
-        <img src={pic2} alt='Fourth Surfboards' />
+        <img src={pic2} title='Fourth Surfboards' alt='Fourth Surfboards' />
       </div>
 
     </div>
@@ -145,7 +142,7 @@ export default () => (
       <a href='http://www.carvemag.com/2015/10/mantungou' target='_blank'>View the full article in Print here</a>
     </h3>
 
-    <img src={pic3} alt='carvemag' />
+    <img src={pic3} title='carvemag' alt='carvemag' />
 
 
   </div >

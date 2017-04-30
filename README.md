@@ -12,8 +12,8 @@ Development site at https://www.mentawaiislands.tk
 
 ### TODO
 - [x] font files for all browsers  
-- [ ] improve PDF render performance  
-- [ ] google analytics  
+- [x] improve PDF render performance  
+- [x] google analytics  
 - [x] pdf component for about page  
 - [x] img logo svg fix  
 - [ ] style logo svg with css  
@@ -23,7 +23,7 @@ Development site at https://www.mentawaiislands.tk
 - [x] press section  
 - [ ] debounce fix for scrolling  
 - [ ] add skype and whatsapp?  
-- [ ] update form email on lambda  
+- [x] update form email on lambda  
 - [x] remove gallery hover zoom on mobiles  
 - [ ] show warning for old browsers  
 - [ ] fix console errors  

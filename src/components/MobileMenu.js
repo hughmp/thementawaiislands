@@ -19,9 +19,10 @@ const buildMenu = (handleMenuChange) => (
   headings
     .en
     .map((item, index) => (
-      <div>
+      // needs to have wrapper to prevent errors
+      <div key={`wrapper-${index}`}>
         <Link
-          key={index}
+          key={`link-${index}`}
           className='menu-item'
           to={'/' + item.heading.toLowerCase().replace(/ /g, '')}
           onClick={() => handleMenuChange({ isOpen: false })}
