@@ -2,7 +2,8 @@
 
 ### About
 A marketing and booking app for the company.  
-Development site at https://www.mentawaiislands.tk  
+Production site @ https://www.thementawaiislands.com  
+Development site @ https://thementawaiislands-dev.netlify.com  
   
 ### Technology
 - Single-page web-app (SPA) following JAM stack principles (Javascript, APIs & Markup)  
@@ -26,4 +27,4 @@ Development site at https://www.mentawaiislands.tk
 - [x] update form email on lambda  
 - [x] remove gallery hover zoom on mobiles  
 - [ ] show warning for old browsers  
-- [ ] fix console errors  
+- [x] fix console errors  
