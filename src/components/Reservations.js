@@ -18,7 +18,7 @@ export default () => (
     </ul>
 
     <p>
-      From $125/day per person
+      From $99/day per person
       (based on group of 6)
     </p>
 

@@ -19,7 +19,7 @@ export default ({ form, handleSubmitForm }) => (
           </li>
           <li className="footer-contact-item">
             <i className="fa fa-phone"></i>
-            <a href="tel:+447545922090">+44 (0) 7545 922 090</a>
+            <a href="tel:+6281277946662">+62 (0) 8127 794 6662</a>
           </li>
           <li className="footer-contact-item">
             <i className="fa fa-envelope-o"></i>

@@ -62,7 +62,7 @@ export default ({ setTransparent }) => (
             className='trip-pic'
             style={{ backgroundImage: `url(${group})` }}
           />
-          <p><b>Camp Size </b><br /><br />Max 8 Guests</p>
+          <p><b>Camp Size </b><br /><br />Max 6 Guests</p>
         </div>
         <div className='trip-desc'>
           <div
