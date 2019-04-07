@@ -140,7 +140,7 @@ export default ({ setTransparent }) => (
 
       <div className='content-packages-body'>
         <h1 className="packages-main-title">PACKAGES</h1>
-        <h2 className="packages-title">Prices starting from $125 per person per day (all inclusive)</h2>
+        <h2 className="packages-title">Prices starting from $99 per person per day (all inclusive)</h2>
         <h2 className="packages-title">Included in ALL Packages:</h2>
         <ul>
           <li><i className="fa fa-check" aria-hidden="true"></i>Pick-up / drop-off from Siberut <b>(If you wish to travel via Tua Pejat there will be an additional charge of $150 for each pick-up / drop-off per group)</b></li>
